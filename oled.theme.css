@@ -120,7 +120,9 @@
 .da-userPopout {
 	background: black;
 }
-
+.da-contents > .da-header {
+    background: transparent !important;
+}
 .da-header,
 .da-body,
 .da-footer {
