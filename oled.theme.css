@@ -124,7 +124,7 @@
 .da-header,
 .da-body,
 .da-footer {
-	background: transparent !important;
+	background: black !important;
 }
 
 /* search */
@@ -214,7 +214,6 @@
 	border-color: black;
 }
 
-/* menu */
 .da-menu {
 	background: black;
 }
@@ -261,4 +260,11 @@
 .total-i6us2n:after {
     border-right-color: rgb(10, 10, 10);
     background: rgb(10, 10, 10) !important;
+}
+.inner-1ilYF7 {
+    border: rgb(10,10,10) 1px solid;
+    border-radius: 3px;
+}
+.listRow-hutiT_, .da-connectedAccount {
+    background: black !important;
 }
