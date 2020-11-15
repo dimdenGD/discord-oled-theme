@@ -253,7 +253,8 @@
 .scrollerBase-289Jih,
 .da-segmentControl,
 .root-1gCeng,
-.da-uploadModal {
+.da-uploadModal,
+.selected-1Tbx07 {
 	background: black !important;
 }
 .card-FDVird:before,
@@ -264,7 +265,7 @@
     border-right-color: rgb(10, 10, 10);
     background: rgb(10, 10, 10) !important;
 }
-.inner-1ilYF7 {
+.inner-1ilYF7, .selected-1Tbx07 {
     border: rgb(10,10,10) 1px solid;
     border-radius: 3px;
 }
