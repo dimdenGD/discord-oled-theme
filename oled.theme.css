@@ -272,3 +272,6 @@
 .listRow-hutiT_, .da-connectedAccount {
     background: black !important;
 }
+.da-expandedFolderBackground {
+	background-color: rgb(20, 20, 20);
+}
