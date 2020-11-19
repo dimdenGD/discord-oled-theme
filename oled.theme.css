@@ -13,6 +13,7 @@
 	--background-tertiary: rgb(0, 0, 0);
 	--background-secondary-alt: rgb(0, 0, 0);
 	--background-accent: rgb(0, 0, 0);
+	--activity-card-background: rgb(0, 0, 0);
 }
 
 .da-base>.da-content>.da-container {
