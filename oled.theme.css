@@ -267,7 +267,8 @@
     background: rgb(10, 10, 10) !important;
 }
 .inner-1ilYF7, .selected-1Tbx07 {
-    border: rgb(10,10,10) 1px solid;
+	border: rgb(10,10,10) 1px solid;
+	background-color: black !important;
     border-radius: 3px;
 }
 .listRow-hutiT_, .da-connectedAccount {
