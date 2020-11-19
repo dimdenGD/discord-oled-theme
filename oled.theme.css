@@ -272,6 +272,10 @@
 .listRow-hutiT_, .da-connectedAccount {
     background: black !important;
 }
-.da-expandedFolderBackground {
+.da-expandedFolderBackground,
+.da-jumpToPresentBar {
 	background-color: rgb(20, 20, 20);
+}
+.da-repliedMessage:before {
+	border-color: rgb(15, 15, 15);
 }
