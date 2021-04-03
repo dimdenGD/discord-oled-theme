@@ -266,7 +266,11 @@
 .inner-MADQqc,
 .headerTop-3C2Zn0,
 .footer-1fjuF6,
-.scrollableContainer-2NUZem {
+.scrollableContainer-2NUZem,
+.activityUserPopout-2yItg2,
+.header-QKLPzZ,
+.activityProfile-2bJRaP,
+.tabBarContainer-1s1u-z {
 	background: black !important;
 }
 .card-FDVird:before,
@@ -300,4 +304,7 @@
 }
 .da-messageContent > code {
 	background-color: #111;
+}
+.inner-1ilYF7 {
+	border: 1px #111 solid;
 }
