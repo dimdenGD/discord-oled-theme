@@ -2,7 +2,7 @@
  * @name         OLED Theme
  * @description  Theme for OLED screens like AMOLED theme for phones. Nothing else.
  * @author       dimden.dev
- * @version      1.5
+ * @version      1.6
  * @source       https://github.com/dimdenGD/discord-oled-theme/blob/main/oled.theme.css
  * @invite       5jm5P3SJF3
  * @authorId     258557706892214282
@@ -96,7 +96,7 @@
 	margin-bottom: 3px;
 }
 
-.da-scroller::-webkit-scrollbar-track-piece {
+::-webkit-scrollbar-track-piece {
 	background-color: black !important;
 	border: none !important;
 }
@@ -262,7 +262,11 @@
 .invite-18yqGF,
 .da-notice,
 .da-ready,
-.da-categoryHeader {
+.da-categoryHeader,
+.inner-MADQqc,
+.headerTop-3C2Zn0,
+.footer-1fjuF6,
+.scrollableContainer-2NUZem {
 	background: black !important;
 }
 .card-FDVird:before,
