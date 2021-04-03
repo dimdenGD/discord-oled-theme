@@ -2,7 +2,7 @@
  * @name         OLED Theme
  * @description  Theme for OLED screens like AMOLED theme for phones. Nothing else.
  * @author       dimden.dev
- * @version      1.4
+ * @version      1.5
  * @source       https://github.com/dimdenGD/discord-oled-theme/blob/main/oled.theme.css
  * @invite       5jm5P3SJF3
  * @authorId     258557706892214282
@@ -293,4 +293,7 @@
 }
 .da-embed {
 	background-color: rgb(1, 1, 1);
+}
+.da-messageContent > code {
+	background-color: #111;
 }
