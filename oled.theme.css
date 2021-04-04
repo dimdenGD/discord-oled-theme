@@ -2,7 +2,7 @@
  * @name         OLED Theme
  * @description  Theme for OLED screens like AMOLED theme for phones. Nothing else.
  * @author       dimden#9999
- * @version      1.6.2
+ * @version      1.7
  * @source       https://github.com/dimdenGD/discord-oled-theme/blob/main/oled.theme.css
  * @invite       5jm5P3SJF3
  * @authorId     258557706892214282
@@ -18,43 +18,43 @@
 	--activity-card-background: rgb(0, 0, 0);
 }
 
-.da-base>.da-content>.da-container {
+/* *[class^='base']>*[class^='content']>*[class^='container'] {
 	background: transparent;
-}
+} */
 
-.da-modal>.da-inner>.da-root {
+*[class^='modal'] > *[class^='inner'] > *[class^='root'] {
 	background: rgb(0, 0, 0);
 	border-radius: 0px;
 	backdrop-filter: blur(5px);
 }
 
-.da-topSectionPlaying>.da-headerFill>.da-activityProfile {
+*[class^='topSectionPlaying'] > *[class^='headerFill'] > *[class^='activityProfile'] {
 	background: black;
 }
 
-.da-unreadBar {
+*[class^='unreadBar'] {
     background: rgb(10, 10, 10);
 }
-.da-spoilerText {
+.spoilerText-3p6IlD {
     background: rgb(20, 20, 20) !important;
 }
-.da-topSectionNormal>.da-header,
-.da-topSectionPlaying>.da-header,
-.da-topSectionNormal>div>.da-activity,
-.da-topSectionPlaying>div>.da-activity {
+*[class^='topSectionNormal']>*[class^='header'],
+*[class^='topSectionPlaying']>*[class^='header'],
+*[class^='topSectionNormal']>div>*[class^='activity'],
+*[class^='topSectionPlaying']>div>*[class^='activity'] {
 	background: black;
 }
 
-.da-topSectionPlaying {
+*[class^='topSectionPlaying'] {
 	background: black;
 }
 
-.da-tabBarContainer {
+*[class^='tabBarContainer'] {
 	background: black;
 	border: 0px;
 }
 
-.da-tabBar>.da-tabBarItem {
+*[class^='tabBar']>*[class^='tabBarItem'] {
 	border-bottom: 0px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -62,26 +62,26 @@
 	margin-right: 16px;
 }
 
-.da-tabBar>.da-tabBarItem:hover {
+*[class^='tabBar']>*[class^='tabBarItem']:hover {
 	background: rgba(0, 0, 0, 0.1);
 }
 
-.da-tabBar>.da-selected {
+*[class^='tabBar']>*[class^='selected'] {
 	color: white !important;
 }
 
-.da-userInfoSection {
+*[class^='userInfoSection'] {
 	border: 0px !important;
 }
 
-.da-connectedAccount {
+*[class^='connectedAccount'] {
 	background: rgb(10, 10, 10);
 	border: 0px;
 	border-radius: 0px;
 	border-bottom: 4px solid black;
 }
 
-.da-body>.da-listScroller>.da-listRow {
+*[class^='body']>*[class^='listScroller']>*[class^='listRow'] {
 	background: rgb(10, 10, 10);
 	border: 0px;
 	border-radius: 0px;
@@ -90,7 +90,7 @@
 	padding: 5px;
 }
 
-.da-body>.da-listScroller>.da-listRow:hover {
+*[class^='body']>*[class^='listScroller']>*[class^='listRow']:hover {
 	background: rgb(10, 10, 10);
 	border: 0px;
 	border-radius: 0px;
@@ -103,32 +103,32 @@
 	border: none !important;
 }
 
-.da-channelTextArea>.da-webkit {
+*[class^='channelTextArea']>*[class^='webkit'] {
 	background: black;
 	border-bottom: 4px solid black;
 }
 
-.da-cozyMessage>.da-buttonContainer>.da-container>.da-wrapper {
+*[class^='cozyMessage']>*[class^='buttonContainer']>*[class^='container']>*[class^='wrapper'] {
 	background: black;
 }
 
-.da-cozyMessage>.da-buttonContainer>.da-container>.da-wrapper>.da-button {
+*[class^='cozyMessage']>*[class^='buttonContainer']>*[class^='container']>*[class^='wrapper']>*[class^='button'] {
 	border-bottom: 2px solid black;
 }
 
-.da-cozyMessage>.da-buttonContainer>.da-container>.da-wrapper>.da-button:hover {
+*[class^='cozyMessage']>*[class^='buttonContainer']>*[class^='container']>*[class^='wrapper']>*[class^='button']:hover {
 	background: black;
 }
 
-.da-userPopout {
+*[class^='userPopout'] {
 	background: black;
 }
-.da-contents > .da-header {
+*[class^='contents'] > *[class^='header'] {
     background: transparent !important;
 }
-.da-header,
-.da-body,
-.da-footer {
+*[class^='header'],
+*[class^='body'],
+*[class^='footer'] {
 	background: black !important;
 }
 
@@ -219,26 +219,26 @@
 	border-color: black;
 }
 
-.da-menu {
+*[class^='menu'] {
 	background: black;
 }
 
-.da-title {
+*[class^='title'] {
 	color: white;
 }
 
-.da-templatesList,
+*[class^='templatesList'],
 .container-UC8Ug1 {
 	background: black
 }
 
-.da-createGuild,
-.da-viewWrapper,
-.da-scroller,
-.da-content,
-.da-noiseCancellationPopout,
-.da-perksModalContentWrapper,
-.da-headerFill {
+*[class^='createGuild'],
+*[class^='viewWrapper'],
+*[class^='scroller'],
+*[class^='content'],
+*[class^='noiseCancellationPopout'],
+*[class^='perksModalContentWrapper'],
+*[class^='headerFill'] {
 	background: black;
 }
 
@@ -248,23 +248,23 @@
 	border-radius: 0 !important;
 }
 
-.da-autocomplete,
-.da-tierBody,
-.da-overflowRolesPopout,
+*[class^='autocomplete'],
+*[class^='tierBody'],
+*[class^='overflowRolesPopout'],
 .layout-2DM8Md,
 .header-1TKi98,
 .footer-2gL1pp,
 .scrollerBase-289Jih,
-.da-segmentControl,
+*[class^='segmentControl'],
 .root-1gCeng,
-.da-uploadModal,
+*[class^='uploadModal'],
 .selected-1Tbx07,
 .outer-1AjyKL,
 .theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover,
 .invite-18yqGF,
-.da-notice,
-.da-ready,
-.da-categoryHeader,
+*[class^='notice'],
+*[class^='ready'],
+*[class^='categoryHeader'],
 .inner-MADQqc,
 .headerTop-3C2Zn0,
 .footer-1fjuF6,
@@ -297,14 +297,331 @@
 .selected-1Tbx07 > .content-Qb0rXO {
 	background-color: rgb(17, 17, 17);
 }
-.listRow-hutiT_, .da-connectedAccount {
+.listRow-hutiT_, *[class^='connectedAccount'] {
     background: black !important;
 }
-.da-expandedFolderBackground,
-.da-jumpToPresentBar {
+*[class^='expandedFolderBackground'],
+*[class^='jumpToPresentBar'] {
 	background-color: rgb(20, 20, 20);
 }
-.da-repliedMessage:before {
+*[class^='repliedMessage']:before {
+	border-color: rgb(15, 15, 15);
+}
+.embedWrapper-lXpS3L {
+	background-color: rgb(6, 6, 6);
+}
+.messageContent-2qWWxC > code {
+	background-color: rgb(10, 10, 10);
+}
+.inner-1ilYF7 {
+	border: 1px #111 solid;
+}/**
+ * @name         OLED Theme
+ * @description  Theme for OLED screens like AMOLED theme for phones. Nothing else.
+ * @author       dimden#9999
+ * @version      1.6.1
+ * @source       https://github.com/dimdenGD/discord-oled-theme/blob/main/oled.theme.css
+ * @invite       5jm5P3SJF3
+ * @authorId     258557706892214282
+ * @website      https://dimden.dev
+ * @donate       https://www.patreon.com/dimdendev
+ */
+ :root {
+	--background-primary: rgb(0, 0, 0);
+	--background-secondary: rgb(0, 0, 0);
+	--background-tertiary: rgb(0, 0, 0);
+	--background-secondary-alt: rgb(0, 0, 0);
+	--background-accent: rgb(0, 0, 0);
+	--activity-card-background: rgb(0, 0, 0);
+}
+
+/* *[class^='base']>*[class^='content']>*[class^='container'] {
+	background: transparent;
+} */
+
+*[class^='modal'] > *[class^='inner'] > *[class^='root'] {
+	background: rgb(0, 0, 0);
+	border-radius: 0px;
+	backdrop-filter: blur(5px);
+}
+
+*[class^='topSectionPlaying'] > *[class^='headerFill'] > *[class^='activityProfile'] {
+	background: black;
+}
+
+*[class^='unreadBar'] {
+    background: rgb(10, 10, 10);
+}
+.spoilerText-3p6IlD {
+    background: rgb(20, 20, 20) !important;
+}
+*[class^='topSectionNormal']>*[class^='header'],
+*[class^='topSectionPlaying']>*[class^='header'],
+*[class^='topSectionNormal']>div>*[class^='activity'],
+*[class^='topSectionPlaying']>div>*[class^='activity'] {
+	background: black;
+}
+
+*[class^='topSectionPlaying'] {
+	background: black;
+}
+
+*[class^='tabBarContainer'] {
+	background: black;
+	border: 0px;
+}
+
+*[class^='tabBar']>*[class^='tabBarItem'] {
+	border-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 0px;
+	margin-right: 16px;
+}
+
+*[class^='tabBar']>*[class^='tabBarItem']:hover {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+*[class^='tabBar']>*[class^='selected'] {
+	color: white !important;
+}
+
+*[class^='userInfoSection'] {
+	border: 0px !important;
+}
+
+*[class^='connectedAccount'] {
+	background: rgb(10, 10, 10);
+	border: 0px;
+	border-radius: 0px;
+	border-bottom: 4px solid black;
+}
+
+*[class^='body']>*[class^='listScroller']>*[class^='listRow'] {
+	background: rgb(10, 10, 10);
+	border: 0px;
+	border-radius: 0px;
+	border-bottom: 4px solid black;
+	margin-bottom: 3px;
+	padding: 5px;
+}
+
+*[class^='body']>*[class^='listScroller']>*[class^='listRow']:hover {
+	background: rgb(10, 10, 10);
+	border: 0px;
+	border-radius: 0px;
+	border-bottom: 4px solid black;
+	margin-bottom: 3px;
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: black !important;
+	border: none !important;
+}
+
+*[class^='channelTextArea']>*[class^='webkit'] {
+	background: black;
+	border-bottom: 4px solid black;
+}
+
+*[class^='cozyMessage']>*[class^='buttonContainer']>*[class^='container']>*[class^='wrapper'] {
+	background: black;
+}
+
+*[class^='cozyMessage']>*[class^='buttonContainer']>*[class^='container']>*[class^='wrapper']>*[class^='button'] {
+	border-bottom: 2px solid black;
+}
+
+*[class^='cozyMessage']>*[class^='buttonContainer']>*[class^='container']>*[class^='wrapper']>*[class^='button']:hover {
+	background: black;
+}
+
+*[class^='userPopout'] {
+	background: black;
+}
+*[class^='contents'] > *[class^='header'] {
+    background: transparent !important;
+}
+*[class^='header'],
+*[class^='body'],
+*[class^='footer'] {
+	background: black !important;
+}
+
+/* search */
+#app-mount .container-3ayLPN,
+.searchResultsWrap-3-pOjs,
+.searchResult-9tQ1uo.expanded-ovgtuV {
+	background: black
+}
+
+#app-mount .option-96V44q:after {
+	background: black
+}
+
+#app-mount .option-96V44q.selected-rZcOL-,
+#app-mount .searchAnswer-3Dz2-q,
+#app-mount .searchFilter-2ESiM3 {
+	background-color: black
+}
+
+#app-mount .channelSeparator-1DOiGt .channelName-1JRO3C {
+	background-color: black;
+}
+
+#app-mount .searchResult-9tQ1uo:before {
+	background: black
+}
+
+#app-mount .searchResult-9tQ1uo .searchResultMessage-1fxgXh.hit-1fVM9e {
+	background: black;
+}
+
+.searchResult-9tQ1uo.expanded-w_LCGl {
+	background-color: black;
+}
+
+#app-mount .searchBar-1MOL6S {
+	background-color: black;
+}
+
+#app-mount .quickMessage-1yeL4E,
+#app-mount .searchOption-8nCYo-.selected-1r_nkg {
+	background: black;
+}
+
+#app-mount .jumpButton-Ia2hRJ:hover,
+#app-mount .dim-1l4L4y span {
+	color: white;
+	background: black;
+}
+
+#app-mount .calendarPicker-2yf6Ci .react-datepicker__day--disabled,
+#app-mount .calendarPicker-2yf6Ci .react-datepicker__day--outside-month {
+	background-color: black;
+}
+
+#app-mount .searchResult-9tQ1uo:after {
+	background: linear-gradient(180deg, transparent, black);
+}
+
+#app-mount .searchResultsWrap-2DKFzt {
+	background: black;
+}
+
+#app-mount .searchHeader-1l-wpR,
+#app-mount .focused-2bY0OD,
+#app-mount .focused-1Yu0L3 {
+	background: black;
+	background-attachment: fixed;
+}
+
+#app-mount .calendarPicker-2yf6Ci .react-datepicker {
+	background: black;
+}
+
+#app-mount .calendarPicker-2yf6Ci .react-datepicker__header {
+	background: black;
+}
+
+#app-mount .searchResultsContainer-1ma_dc,
+#app-mount .popout-13LQ_3 {
+	background: black;
+}
+
+#app-mount .searchHeader-1l-wpR .tab-2Ixsn0.selected-16te-P,
+#app-mount .searchHeader-1l-wpR .tab-2Ixsn0:hover {
+	color: black;
+	border-color: black;
+}
+
+*[class^='menu'] {
+	background: black;
+}
+
+*[class^='title'] {
+	color: white;
+}
+
+*[class^='templatesList'],
+.container-UC8Ug1 {
+	background: black
+}
+
+*[class^='createGuild'],
+*[class^='viewWrapper'],
+*[class^='scroller'],
+*[class^='content'],
+*[class^='noiseCancellationPopout'],
+*[class^='perksModalContentWrapper'],
+*[class^='headerFill'] {
+	background: black;
+}
+
+.templatesList-2E6rTe,
+.content-1LAB8Z {
+	margin: 0 !important;
+	border-radius: 0 !important;
+}
+
+*[class^='autocomplete'],
+*[class^='tierBody'],
+*[class^='overflowRolesPopout'],
+.layout-2DM8Md,
+.header-1TKi98,
+.footer-2gL1pp,
+.scrollerBase-289Jih,
+*[class^='segmentControl'],
+.root-1gCeng,
+*[class^='uploadModal'],
+.selected-1Tbx07,
+.outer-1AjyKL,
+.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover,
+.invite-18yqGF,
+*[class^='notice'],
+*[class^='ready'],
+*[class^='categoryHeader'],
+.inner-MADQqc,
+.headerTop-3C2Zn0,
+.footer-1fjuF6,
+.scrollableContainer-2NUZem,
+.activityUserPopout-2yItg2,
+.header-QKLPzZ,
+.activityProfile-2bJRaP,
+.tabBarContainer-1s1u-z,
+.inner-1ilYF7,
+.uploadModal-2ifh8j,
+.footer-3mqk7D,
+.autocomplete-1vrmpx,
+.section-2gLsgF,
+.peopleColumn-29fq28 {
+	background: black !important;
+}
+.card-FDVird:before,
+.wrapper-2tAnRe,
+.total-i6us2n,
+.users-3kndPl,
+.total-i6us2n:after {
+    border-right-color: rgb(10, 10, 10);
+    background: rgb(10, 10, 10) !important;
+}
+.inner-1ilYF7, .selected-1Tbx07 {
+	/* border: rgb(10,10,10) 1px solid; */
+	background-color: rgb(17, 17, 17) !important;
+    border-radius: 3px;
+}
+.selected-1Tbx07 > .content-Qb0rXO {
+	background-color: rgb(17, 17, 17);
+}
+.listRow-hutiT_, *[class^='connectedAccount'] {
+    background: black !important;
+}
+*[class^='expandedFolderBackground'],
+*[class^='jumpToPresentBar'] {
+	background-color: rgb(20, 20, 20);
+}
+*[class^='repliedMessage']:before {
 	border-color: rgb(15, 15, 15);
 }
 .embedWrapper-lXpS3L {
