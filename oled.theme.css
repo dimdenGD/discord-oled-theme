@@ -2,7 +2,7 @@
  * @name         OLED Theme
  * @description  Theme for OLED screens like AMOLED theme for phones. Nothing else.
  * @author       dimden#9999
- * @version      1.8
+ * @version      1.9
  * @source       https://github.com/dimdenGD/discord-oled-theme/blob/main/oled.theme.css
  * @invite       5jm5P3SJF3
  * @authorId     258557706892214282
@@ -18,66 +18,17 @@
 	--activity-card-background: black;
 }
 
-*[class^='modal'] > *[class^='inner'] > *[class^='root'] {
+.modal-yWgWj- > .inner-TkGytd > .root-SR8cQa {
 	background: rgb(0, 0, 0);
 	border-radius: 0px;
 	backdrop-filter: blur(5px);
 }
 
-*[class^='unreadBar'] {
+.unreadBar-3t3sYc {
     background: rgb(10, 10, 10);
 }
 .spoilerText-3p6IlD {
     background: rgb(20, 20, 20) !important;
-}
-
-*[class^='tabBarContainer'] {
-	background: black;
-	border: 0px;
-}
-
-*[class^='tabBar']>*[class^='tabBarItem'] {
-	border-bottom: 0px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-left: 0px;
-	margin-right: 16px;
-}
-
-*[class^='tabBar']>*[class^='tabBarItem']:hover {
-	background: rgba(0, 0, 0, 0.1);
-}
-
-*[class^='tabBar']>*[class^='selected'] {
-	color: white !important;
-}
-
-*[class^='userInfoSection'] {
-	border: 0px !important;
-}
-
-*[class^='connectedAccount'] {
-	background: rgb(10, 10, 10);
-	border: 0px;
-	border-radius: 0px;
-	border-bottom: 4px solid black;
-}
-
-*[class^='body']>*[class^='listScroller']>*[class^='listRow'] {
-	background: rgb(10, 10, 10);
-	border: 0px;
-	border-radius: 0px;
-	border-bottom: 4px solid black;
-	margin-bottom: 3px;
-	padding: 5px;
-}
-
-*[class^='body']>*[class^='listScroller']>*[class^='listRow']:hover {
-	background: rgb(10, 10, 10);
-	border: 0px;
-	border-radius: 0px;
-	border-bottom: 4px solid black;
-	margin-bottom: 3px;
 }
 
 ::-webkit-scrollbar-track-piece {
@@ -85,22 +36,9 @@
 	border: none !important;
 }
 
-*[class^='channelTextArea']>*[class^='webkit'] {
+.channelTextArea-rNsIhG > .webkit-HjD9Er {
 	background: black;
 	border-bottom: 4px solid black;
-}
-
-*[class^='cozyMessage']>*[class^='buttonContainer']>*[class^='container']>*[class^='wrapper'] {
-	background: black;
-}
-
-*[class^='cozyMessage']>*[class^='buttonContainer']>*[class^='container']>*[class^='wrapper']>*[class^='button'] {
-	border-bottom: 2px solid black;
-}
-
-
-*[class^='contents'] > *[class^='header'] {
-    background: transparent !important;
 }
 
 #app-mount .jumpButton-Ia2hRJ:hover,
@@ -108,7 +46,6 @@
 	color: white;
 	background: black;
 }
-
 
 #app-mount .searchResult-9tQ1uo:after {
 	background: linear-gradient(180deg, transparent, black);
@@ -126,26 +63,14 @@
 	border-color: black;
 }
 
-*[class^='title'] {
-	color: white;
-}
-
-*[class^='createGuild'],
-*[class^='viewWrapper'],
-*[class^='scroller'],
-*[class^='noiseCancellationPopout'],
-*[class^='perksModalContentWrapper'],
-*[class^='headerFill'],
-*[class^='topSectionPlaying'] > *[class^='headerFill'] > *[class^='activityProfile'],
-*[class^='topSectionNormal'] > *[class^='header'],
-*[class^='topSectionPlaying'] > *[class^='header'],
-*[class^='topSectionNormal'] > div > *[class^='activity'],
-*[class^='topSectionPlaying'] > div > *[class^='activity'],
-*[class^='templatesList'],
+.scroller,
+.noiseCancellationPopout-iRK2A0,
+.perksModalContentWrapper-2HU6uL,
+.templatesList-2E6rTe,
 .container-UC8Ug1,
 #app-mount .searchResultsContainer-1ma_dc,
 #app-mount .popout-13LQ_3,
-*[class^='menu'],
+.menu-3sdvDG,
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__header,
 #app-mount .calendarPicker-2yf6Ci .react-datepicker,
 #app-mount .searchResultsWrap-2DKFzt,
@@ -164,9 +89,9 @@
 #app-mount .container-3ayLPN,
 .searchResultsWrap-3-pOjs,
 .searchResult-9tQ1uo.expanded-ovgtuV,
-*[class^='userPopout'],
-*[class^='cozyMessage']>*[class^='buttonContainer']>*[class^='container']>*[class^='wrapper']>*[class^='button']:hover,
-*[class^='topSectionPlaying'] {
+.userPopout-3XzG_A,
+.wrapper-2aW0bm > .button-1ZiXG9:hover,
+.topSectionPlaying-1J5E4n {
 	background: black;
 }
 
@@ -176,21 +101,22 @@
 	border-radius: 0 !important;
 }
 
-*[class^='autocomplete'],
-*[class^='tierBody'],
-*[class^='overflowRolesPopout'],
+.autocomplete-1vrmpx,
+.tierBody-x9kBBp,
+.overflowRolesPopout-140n9i,
 .layout-2DM8Md,
 .header-1TKi98,
 .footer-2gL1pp,
 .scrollerBase-289Jih,
-*[class^='segmentControl'],
 .root-1gCeng,
-*[class^='uploadModal'],
+.uploadModal-2ifh8j,
 .selected-1Tbx07,
 .outer-1AjyKL,
 .theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover,
 .invite-18yqGF,
-*[class^='notice'],
+.notice-1tZwqv,
+.notice-2FJMB4,
+.notice-2X5hT5,
 *[class^='ready'],
 *[class^='categoryHeader'],
 .inner-MADQqc,
@@ -207,15 +133,15 @@
 .autocomplete-1vrmpx,
 .section-2gLsgF,
 .peopleColumn-29fq28,
-*[class^='header'],
-*[class^='body'],
-*[class^='footer'],
+.header-2mZ9Ov,
 .verticalFit-waKLYN,
 .hoverablePayment-Yc6mK7,
 .bottomDivider-1K9Gao,
 .expandedInfo-3kfShd,
 .codeRedemptionRedirect-1wVR4b,
-.categoryHeader-O1zU94 {
+.categoryHeader-O1zU94,
+.searchOption-zQ-1l6::after,
+.option-96V44q::after {
 	background: black !important;
 }
 .card-FDVird:before,
@@ -238,14 +164,14 @@
 .selected-1Tbx07 > .content-Qb0rXO {
 	background-color: rgb(17, 17, 17);
 }
-.listRow-hutiT_, *[class^='connectedAccount'] {
+.listRow-hutiT_, .connectedAccounts-2-XP1G {
     background: black !important;
 }
-*[class^='expandedFolderBackground'],
-*[class^='jumpToPresentBar'] {
+.expandedFolderBackground-1cujaW,
+.jumpToPresentBar-9P20AM {
 	background-color: rgb(20, 20, 20);
 }
-*[class^='repliedMessage']:before {
+.repliedMessage-VokQwo:before {
 	border-color: rgb(15, 15, 15) !important;
 }
 .embedWrapper-lXpS3L {
