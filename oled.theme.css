@@ -214,7 +214,8 @@
 .hoverablePayment-Yc6mK7,
 .bottomDivider-1K9Gao,
 .expandedInfo-3kfShd,
-.codeRedemptionRedirect-1wVR4b {
+.codeRedemptionRedirect-1wVR4b,
+.categoryHeader-O1zU94 {
 	background: black !important;
 }
 .card-FDVird:before,
@@ -225,7 +226,11 @@
     border-right-color: rgb(10, 10, 10);
     background: rgb(10, 10, 10) !important;
 }
-.inner-1ilYF7, .selected-1Tbx07 {
+.inner-1ilYF7,
+.selected-1Tbx07,
+.selected-1Tbx07 > .autocompleteRowContent-1AMstF,
+.selected-1Tbx07 > .autocompleteRowContent-1AMstF > .autocompleteRowContentPrimary-238PvP,
+.selected-1Tbx07 > .autocompleteRowContent-1AMstF > .autocompleteRowContentPrimary-238PvP > .colorInteractiveActive-3Ip9Eu{
 	/* border: rgb(10,10,10) 1px solid; */
 	background-color: rgb(17, 17, 17) !important;
     border-radius: 3px;
@@ -251,4 +256,7 @@
 }
 .inner-1ilYF7 {
 	border: 1px #111 solid;
+}
+.headerText-3Uvj1Y {
+	background-color: transparent !important;
 }
