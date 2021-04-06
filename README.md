@@ -9,5 +9,6 @@ Requires Dark Mode to be enabled.
 3. Save to your "/themes" BetterDiscord folder
 4. Enable in BD settings
   
-Preview:  
+## Preview
+
 ![Screenshot](https://edge.dimden.dev/7420f12363.png)
