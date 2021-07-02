@@ -81,7 +81,10 @@ https://discord.gg/5jm5P3SJF3
 .userPopout-3XzG_A,
 .wrapper-2aW0bm > .button-1ZiXG9:hover,
 .topSectionPlaying-1J5E4n,
-.topSection-y3p-_D > header {
+.topSection-y3p-_D > header,
+.bodyTitle-1ySSKn, 
+.rolesList-1geHY1, 
+{
 	background: black;
 }
 
@@ -142,7 +145,10 @@ https://discord.gg/5jm5P3SJF3
 .nameTag-m8r81H,
 .tabBarContainer-37hZsr, 
 .textScroller-dc9_kz,
-.aboutMeSection---MkQa {
+.aboutMeSection---MkQa,
+.headerTop-3vNv-a, 
+.rolesList-1geHY1 
+.bodyTitle-1ySSKn.base-1x0h_U.size12-3cLvbJ.muted-3-7c5L.uppercase-3VWUQ9 {
 	background: black !important;
 }
 .card-FDVird:before,
