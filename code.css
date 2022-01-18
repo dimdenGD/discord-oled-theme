@@ -151,7 +151,8 @@ https://discord.gg/5jm5P3SJF3
 .rolesList-1geHY1,
 .bodyTitle-1ySSKn.base-1x0h_U.size12-3cLvbJ.muted-3-7c5L.uppercase-3VWUQ9,
 .footer-3UKYOU,
-.scrollableContainer-15eg7h.webkit-QgSAqd {
+.scrollableContainer-15eg7h.webkit-QgSAqd,
+.menu-1QACrS {
 	background: black !important;
 }
 .card-FDVird:before,
@@ -167,8 +168,7 @@ https://discord.gg/5jm5P3SJF3
 .selected-1Tbx07 > .autocompleteRowContent-1AMstF,
 .selected-1Tbx07 > .autocompleteRowContent-1AMstF > .autocompleteRowContentPrimary-238PvP,
 .selected-1Tbx07 > .autocompleteRowContent-1AMstF > .autocompleteRowContentPrimary-238PvP > .colorInteractiveActive-3Ip9Eu{
-	/* border: rgb(10,10,10) 1px solid; */
-	background-color: rgb(17, 17, 17) !important;
+    background-color: rgb(17, 17, 17) !important;
     border-radius: 3px;
 }
 .selected-1Tbx07 > .content-Qb0rXO {
