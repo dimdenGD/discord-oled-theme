@@ -167,7 +167,8 @@ h3.bodyTitle-2Az3VQ.fontDisplay-3Gtuks.base-21yXnu.size12-oc4dx4.muted-eZM05q.up
 .bodyTitle-1ySSKn.base-1x0h_U.size12-3cLvbJ.muted-3-7c5L.uppercase-3VWUQ9,
 .footer-3UKYOU,
 .scrollableContainer-15eg7h.webkit-QgSAqd,
-.menu-1QACrS {
+.menu-1QACrS,
+.autocomplete-3NRXG8.autocomplete-3jLKbj.autocompleteAttached-bt_md- {
 	background: black !important;
 }
 .card-FDVird:before,
@@ -186,8 +187,9 @@ h3.bodyTitle-2Az3VQ.fontDisplay-3Gtuks.base-21yXnu.size12-oc4dx4.muted-eZM05q.up
     background-color: rgb(17, 17, 17) !important;
     border-radius: 3px;
 }
-.selected-1Tbx07 > .content-Qb0rXO {
-	background-color: rgb(17, 17, 17);
+.selected-1Tbx07 > .content-Qb0rXO,
+.selected-3H3-RC {
+	background-color: rgb(17, 17, 17) !important;
 }
 .listRow-hutiT_, .connectedAccounts-2-XP1G {
     background: black !important;
