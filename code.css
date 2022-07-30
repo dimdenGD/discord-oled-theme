@@ -220,3 +220,6 @@ div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.l
 .container-3JKcAb > .spine--Wla_O, .svg.spine-29OFwR {
 	color: #444444 !important;
 }
+.markup-eYLPri code.inline {
+    background-color: #0c0c0c;
+}
