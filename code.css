@@ -223,3 +223,27 @@ div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.l
 .markup-eYLPri code.inline {
     background-color: #0c0c0c;
 }
+.defaultColor-HXu-5n {
+	color: white;
+}
+.text-md-medium-2avxhQ, .text-md-normal-304U3g {
+	color: white !important;
+}
+.container-x8Y1ix {
+	background-color: var(--background-modifier-hover);
+}
+.container-x8Y1ix:hover {
+	transform: scale(1.01);
+}
+.theme-light .footerSeparator-VzAYwb {
+	background-color: black;
+}
+.scroller-3j5xK2 {
+	background-color: black;
+}
+.search-25t1e9 .searchBox-31Zv9h {
+	background-color: var(--input-background);
+}
+.skip-2hTIXL {
+	color: white;
+}
