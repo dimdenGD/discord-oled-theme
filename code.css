@@ -16,7 +16,9 @@ https://discord.gg/5jm5P3SJF3
 .unreadBar-3t3sYc {
     background: rgb(10, 10, 10);
 }
-.spoilerText-3p6IlD {
+
+.spoilerText-3p6IlD,
+.emojiItemSelected-2Lg50V {
     background: rgb(20, 20, 20) !important;
 }
 
@@ -247,12 +249,26 @@ div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.l
 .text-md-medium-2avxhQ, .text-md-normal-304U3g {
 	color: white !important;
 }
+/* section: create a server */
 .container-x8Y1ix {
 	background-color: var(--background-modifier-hover);
 }
 .container-x8Y1ix:hover {
 	transform: scale(1.01);
 }
+.text-md-bold-22PzaZ.text-PdAsFQ {
+	color: white;
+}
+.footerButton-24QPis.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeMedium-2bFIHr.grow-2sR_-F {
+	background-color: var(--background-modifier-hover) !important;
+}
+
+.footerSeparator-VzAYwb {
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+
 .theme-light .footerSeparator-VzAYwb {
 	background-color: black;
 }
