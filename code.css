@@ -147,6 +147,7 @@ https://discord.gg/5jm5P3SJF3
 .searchResult-9tQ1uo.expanded-ovgtuV,
 .userPopout-3XzG_A,
 .wrapper-2aW0bm > .button-1ZiXG9:hover,
+.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.footer-31IekZ.footerSeparator-VzAYwb,
 .topSectionPlaying-1J5E4n,
 .topSection-y3p-_D > header,
 .bodyTitle-1ySSKn, 
@@ -253,6 +254,25 @@ div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.l
 .container-x8Y1ix {
 	background-color: var(--background-modifier-hover);
 }
+
+code.scrollbarGhostHairline-2LpzZ9.scrollbar-3vVt8d.hljs {
+	background: black !important;
+}
+
+.input-2g-os5 {
+	background-color: rgb(20, 20, 20) !important;
+	color: white !important;
+}
+.rowContainer-3t7486 {
+	background-color: rgb(20, 20, 20) !important;
+}
+.rowContainer-3t7486 div.rowText-3MQqQi {
+	color: gray;
+}
+.sampleLink-5BWNy9 {
+	color: white;
+}
+
 .container-x8Y1ix:hover {
 	transform: scale(1.01);
 }
