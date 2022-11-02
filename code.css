@@ -17,7 +17,7 @@ https://discord.gg/5jm5P3SJF3
 	background: rgb(10 10 10);
 }
 
-::-webkit-scrollbar-track-piece {
+:not(.overlayBackground-1KgwVi > .scrollerBase-_bVAAt)::-webkit-scrollbar-track-piece {
 	background-color: black !important;
 	border: none !important;
 }
@@ -85,8 +85,8 @@ https://discord.gg/5jm5P3SJF3
 	.inner-1ilYF7,
 	.uploadModal-2ifh8j,
 	.footer-3mqk7D,
-	div[role="list"],
-	div[role="listitem"],
+	div[role="list"]:not([aria-label="Roles"]),
+	div[role="listitem"]:not([class^='role']),
 	.autocomplete-1vrmpx,
 	.section-2gLsgF,
 	.peopleColumn-29fq28,
@@ -160,8 +160,7 @@ https://discord.gg/5jm5P3SJF3
 	.note-Go5ZP2,
 	.bodyInnerWrapper-2bQs1k,
 	.topSection-13QKHs,
-	.infoScroller-1QMpon.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN,
-	.listScroller-entkMk.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN,
+	.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN,
 	.popoutInfo-16MuYF,
 	.paymentPane-ut5qKZ.verticalFit-21XL0v,
 	.paymentRow-1HKOLu.bottomDivider-ZmTm-j,
@@ -191,6 +190,8 @@ https://discord.gg/5jm5P3SJF3
 	.guildIcon-2SUGiq,
 	.categoryItemRecentEmoji-Rk8CU1,
 	.container-nwU-8G,
+	.emojiPicker-6YCk8a,
+	.header-11eigE,
 
 	/* section: sticker picker */
 	.wrapper-1NNaWG.packHeader-w9jpYl,
@@ -204,6 +205,10 @@ https://discord.gg/5jm5P3SJF3
 	.flex-2S1XBF.flex-3BkGQD.horizontalReverse-60Katr.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.footer-31IekZ.bd-error-modal-footer.footerSeparator-VzAYwb,
 	.peopleColumn-1wMU14) {
 	background: black !important;
+}
+
+textarea[aria-label="Note"] {
+	background-color: rgb(0, 0, 0, .3) !important;
 }
 
 .card-FDVird:before,
