@@ -13,7 +13,8 @@ https://discord.gg/5jm5P3SJF3
 	backdrop-filter: blur(5px);
 }
 
-.unreadBar-3t3sYc {
+.unreadBar-3t3sYc,
+.perk-19D_HN {
 	background: rgb(10 10 10);
 }
 
@@ -85,7 +86,7 @@ https://discord.gg/5jm5P3SJF3
 	.inner-1ilYF7,
 	.uploadModal-2ifh8j,
 	.footer-3mqk7D,
-	div[role="list"]:not([aria-label="Roles"]),
+	div[role="list"]:not([aria-label^="Role"]),
 	div[role="listitem"]:not([class^='role']),
 	.autocomplete-1vrmpx,
 	.section-2gLsgF,
@@ -120,6 +121,8 @@ https://discord.gg/5jm5P3SJF3
 	.scroller,
 	.noiseCancellationPopout-iRK2A0,
 	.perksModalContentWrapper-2HU6uL,
+	.perksModalContentWrapper-3RHugb,
+	.giftAction-ACtHBA.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeSmall-wU2dO-.grow-2sR_-F,
 	.templatesList-2E6rTe,
 	.container-UC8Ug1,
 	#app-mount .searchResultsContainer-1ma_dc,
