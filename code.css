@@ -376,3 +376,13 @@ div:has(h1.defaultColor-1EVLSt.heading-xl-semibold-3E1dYv.defaultColor-1GKx81:is
 .search-25t1e9 .searchBox-31Zv9h {
 	background-color: var(--input-background);
 }
+
+/* Reduces the server navigation header/banner to compensate with the colored scrollbar area. */
+div.container-1-ERn5 {
+	width: 232px;
+}
+
+/* For some reason this specific Vencord element is being clipped. This somewhat fixes the problem. */
+#vc-membercount {
+	margin-bottom: 0 !important;
+}
