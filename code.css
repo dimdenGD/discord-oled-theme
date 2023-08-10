@@ -19,7 +19,8 @@ https://discord.gg/5jm5P3SJF3
 }
 
 :not(:is(.overlayBackground-1KgwVi > .scrollerBase-_bVAAt,
-		.scroller-15bIdk.thin-RnSY0a.scrollerBase-1Pkza4))::-webkit-scrollbar-track-piece {
+		.scroller-15bIdk.thin-RnSY0a.scrollerBase-1Pkza4,
+		.infoScroller-1QMpon.thin-RnSY0a.scrollerBase-1Pkza4))::-webkit-scrollbar-track-piece {
 	background-color: black !important;
 	border: none !important;
 }
@@ -218,6 +219,11 @@ https://discord.gg/5jm5P3SJF3
 	.searchBar-3aIzc-.container-2oNtJn.medium-2NClDM,
 
 	div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI.background-fkKrXt > div > div,
+	/* create category & channel */
+	.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.header-1ffhsl,
+	.content-1OG56Q.modalContent-33IoUE.thin-RnSY0a.scrollerBase-1Pkza4,
+
+	.directoryContainer-z-0pgp.thin-RnSY0a.scrollerBase-1Pkza4, /*app directory*/
 	.flex-2S1XBF.flex-3BkGQD.horizontalReverse-60Katr.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.footer-31IekZ.bd-error-modal-footer.footerSeparator-VzAYwb,
 	.peopleColumn-1wMU14) {
 	background: black !important;
@@ -324,6 +330,9 @@ textarea[aria-label="Note"] {
 .container-x8Y1ix {
 	background-color: black;
 	color: white;
+}
+.footerButton-24QPis.button-ejjZWC.lookFilled-1H2Jvj.colorPrimary-2-Lusz.sizeMedium-2oH5mg.grow-2T4nbg {
+	background: hsl(0 0% 5%);
 }
 
 div:has(h1.defaultColor-1EVLSt.heading-xl-semibold-3E1dYv.defaultColor-1GKx81:is(.title-1_TkpU, .title-1LqMUp, .title-OdeD-o)) > :is(h1, :nth-child(2)) {
