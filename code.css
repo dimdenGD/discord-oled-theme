@@ -112,7 +112,15 @@ https://discord.gg/5jm5P3SJF3
 	.nameTag-ECvD8P,
 	.nameTag-m8r81H,
 	.tabBarContainer-37hZsr,
+	.content-1OG56Q.body-1HULZ8.thin-RnSY0a.scrollerBase-1Pkza4, /* keep nitro */
+	.scroller-2M3eAB.thin-RnSY0a.scrollerBase-1Pkza4, /* add payment options */
+	.flex-2S1XBF.flex-3BkGQD.horizontalReverse-60Katr.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyBetween-wAERV6.alignCenter-14kD11.noWrap-hBpHBz.footer-IubaaS.footerSeparator-3U8YsT,
+	.breadcrumb.wrapper-wOVKdL,
+	.content-1OG56Q.body-2qXItL.thin-RnSY0a.scrollerBase-1Pkza4, /* nitro re subscribe */
+	.flex-2S1XBF.flex-3BkGQD.horizontalReverse-60Katr.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.footer-IubaaS.footerSeparator-3U8YsT,
 	.textScroller-dc9_kz,
+	.boostContainer-RzXAwu, /* pending cancellation */
+	.content-1OG56Q.thin-RnSY0a.scrollerBase-1Pkza4, /* notification settings screen */
 	.aboutMeSection---MkQa,
 	.headerTop-3vNv-a,
 	.rolesList-1geHY1,
@@ -271,7 +279,7 @@ textarea[aria-label="Note"] {
 
 /* section: pinned messages */
 .header-1w9Q93,
-.messagesPopout-eVzQcI.thin-31rlnD.scrollerBase-_bVAAt,
+.messagesPopout-eVzQcI.thin-RnSY0a.scrollerBase-1Pkza4,
 .messageGroupCozy-3v_RqN.wrapper-30-Nkg.cozy-VmLDNB.zalgo-26OfGz,
 .footer-5ji8u1 {
 	background: black;
