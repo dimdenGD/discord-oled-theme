@@ -12,12 +12,12 @@
 
 @import url(https://dimdengd.github.io/discord-oled-theme/code.css);
 
-:root {
-	--background-primary: black;
-	--background-secondary: black;
-	--background-tertiary: black;
-	--background-secondary-alt: black;
-	--background-accent: black;
+:is(:root, .theme-dark) {
+	--background-primary: black !important;
+	--background-secondary: black !important;
+	--background-tertiary: black !important;
+	--background-secondary-alt: black !important;
+	--background-accent: black !important;
 	--button-secondary-background: hsl(0 0% 10%) !important;
 	--activity-card-background: black;
 	--home-background: black !important;

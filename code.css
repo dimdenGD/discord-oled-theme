@@ -223,10 +223,12 @@ https://discord.gg/5jm5P3SJF3
 	.wrapper-1NNaWG.packHeader-w9jpYl,
 	.standardStickerShortcut-ObSns3,
 	.assetWrapperMasked-1iw9lV,
-
+	.picker-20lcBA, /* soundboard */ 
+	.pageBody-23bo4p, /* browse channels */
+	.grid-1aWVsE, /* embed in pinned */
+	
 	/* section tenor gifs */
 	.searchBar-3aIzc-.container-2oNtJn.medium-2NClDM,
-
 	div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI.background-fkKrXt > div > div,
 	/* create category & channel */
 	.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.header-1ffhsl,
