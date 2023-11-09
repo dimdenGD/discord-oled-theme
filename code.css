@@ -113,7 +113,7 @@ https://discord.gg/5jm5P3SJF3
 	.nameTag-m8r81H,
 	.tabBarContainer-37hZsr,
 	.content-1OG56Q.body-1HULZ8.thin-RnSY0a.scrollerBase-1Pkza4, /* keep nitro */
-	.scroller-2M3eAB.thin-RnSY0a.scrollerBase-1Pkza4, /* add payment options */
+	.root_a28985.small__05f7b.fullscreenOnMobile__96797.rootWithShadow__073a7, /* add payment options, logout */
 	.flex-2S1XBF.flex-3BkGQD.horizontalReverse-60Katr.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyBetween-wAERV6.alignCenter-14kD11.noWrap-hBpHBz.footer-IubaaS.footerSeparator-3U8YsT,
 	.breadcrumb.wrapper-wOVKdL,
 	.content-1OG56Q.body-2qXItL.thin-RnSY0a.scrollerBase-1Pkza4, /* nitro re subscribe */
@@ -182,6 +182,10 @@ https://discord.gg/5jm5P3SJF3
 	.pageActions-1crTQL,
 	#app-mount .container-ZMc96U.themed-Hp1KC_,
 	.wrapper-1NNaWG.categoryHeader-OpJ1Ly,
+	.scrollableContainer__33e06.themedBackground__6b1b6.webkit__8d35a, /* type box */
+	.content__764ce.content__41e2c.thin_b1c063.scrollerBase_dc3aa9, /* events */
+	.focusLock__10aa5 > .root_a28985 > *,
+	.blockedPaymentsWarning__0bf12.blockedPaymentsWarning_de6c61.card__4dc22, /* blocked payments warning */
 	.scroller-2MALzE.list-2u03C-.thin-31rlnD.scrollerBase-_bVAAt,
 	.listRow-hutiT_, .connectedAccounts-2-XP1G,
 	.theme-light .footerSeparator-VzAYwb,
@@ -201,6 +205,7 @@ https://discord.gg/5jm5P3SJF3
 	.scroller-2MALzE.list-obNEuP.none-2-_0dP.scrollerBase-_bVAAt,
 	.inspector-DFKXwB,
 	.unicodeShortcut-3N8oDe,
+	.pageWrapper__582b9, /* shop */
 	.inner-1NoIT5.thin-31rlnD.scrollerBase-_bVAAt,
 	.guildIcon-2SUGiq,
 	.categoryItemRecentEmoji-Rk8CU1,
