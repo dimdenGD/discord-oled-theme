@@ -201,6 +201,13 @@ https://discord.gg/5jm5P3SJF3
 	.container-2rzKKA,
 	/* section: emoji picker */
 	.wrapper-1NNaWG.header-1ULbqO,
+	.scroller_cc9b9a.thin_b1c063.scrollerBase_dc3aa9,
+	.scroller_e89578.list__0870a.thin_b1c063.scrollerBase_dc3aa9,
+	.wrapper__7a35f.categoryHeader_f97a5f,
+	.flex_f5fbb7.horizontalReverse_dc209c.justifyStart__42744.alignStretch_e239ef.noWrap__5c413.footer__89240.modalFooter__6a783.footerSeparator__57d95,
+	.scroller__750f5.thin_b1c063.scrollerBase_dc3aa9,
+	.app_b1f720 > *,
+	.scroller__1f4dd.auto_a48086.scrollerBase_dc3aa9,
 	.contentWrapper-3vHNP2,
 	.scroller-2MALzE.list-obNEuP.none-2-_0dP.scrollerBase-_bVAAt,
 	.inspector-DFKXwB,
@@ -343,7 +350,7 @@ textarea[aria-label="Note"] {
 }
 
 /* section: create a server */
-.container-x8Y1ix {
+.container__73245 {
 	background-color: black;
 	color: white;
 }
