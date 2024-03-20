@@ -20,6 +20,7 @@ https://discord.gg/5jm5P3SJF3
 
 :not(:is(.overlayBackground-1KgwVi > .scrollerBase-_bVAAt,
 		.scroller-15bIdk.thin-RnSY0a.scrollerBase-1Pkza4,
+		.scroller__83262.thin__62e51.scrollerBase__2b744,
 		.infoScroller-1QMpon.thin-RnSY0a.scrollerBase-1Pkza4))::-webkit-scrollbar-track-piece {
 	background-color: black !important;
 	border: none !important;
@@ -112,15 +113,20 @@ https://discord.gg/5jm5P3SJF3
 	.nameTag-ECvD8P,
 	.nameTag-m8r81H,
 	.tabBarContainer-37hZsr,
-	.content-1OG56Q.body-1HULZ8.thin-RnSY0a.scrollerBase-1Pkza4, /* keep nitro */
-	.root_a28985.small__05f7b.fullscreenOnMobile__96797.rootWithShadow__073a7, /* add payment options, logout */
+	.content-1OG56Q.body-1HULZ8.thin-RnSY0a.scrollerBase-1Pkza4,
+	/* keep nitro */
+	.root_a28985.small__05f7b.fullscreenOnMobile__96797.rootWithShadow__073a7,
+	/* add payment options, logout */
 	.flex-2S1XBF.flex-3BkGQD.horizontalReverse-60Katr.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyBetween-wAERV6.alignCenter-14kD11.noWrap-hBpHBz.footer-IubaaS.footerSeparator-3U8YsT,
 	.breadcrumb.wrapper-wOVKdL,
-	.content-1OG56Q.body-2qXItL.thin-RnSY0a.scrollerBase-1Pkza4, /* nitro re subscribe */
+	.content-1OG56Q.body-2qXItL.thin-RnSY0a.scrollerBase-1Pkza4,
+	/* nitro re subscribe */
 	.flex-2S1XBF.flex-3BkGQD.horizontalReverse-60Katr.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.footer-IubaaS.footerSeparator-3U8YsT,
 	.textScroller-dc9_kz,
-	.boostContainer-RzXAwu, /* pending cancellation */
-	.content-1OG56Q.thin-RnSY0a.scrollerBase-1Pkza4, /* notification settings screen */
+	.boostContainer-RzXAwu,
+	/* pending cancellation */
+	.content-1OG56Q.thin-RnSY0a.scrollerBase-1Pkza4,
+	/* notification settings screen */
 	.aboutMeSection---MkQa,
 	.headerTop-3vNv-a,
 	.rolesList-1geHY1,
@@ -182,10 +188,13 @@ https://discord.gg/5jm5P3SJF3
 	.pageActions-1crTQL,
 	#app-mount .container-ZMc96U.themed-Hp1KC_,
 	.wrapper-1NNaWG.categoryHeader-OpJ1Ly,
-	.scrollableContainer__33e06.themedBackground__6b1b6.webkit__8d35a, /* type box */
-	.content__764ce.content__41e2c.thin_b1c063.scrollerBase_dc3aa9, /* events */
+	.scrollableContainer__33e06.themedBackground__6b1b6.webkit__8d35a,
+	/* type box */
+	.content__764ce.content__41e2c.thin_b1c063.scrollerBase_dc3aa9,
+	/* events */
 	.focusLock__10aa5 > .root_a28985 > *,
-	.blockedPaymentsWarning__0bf12.blockedPaymentsWarning_de6c61.card__4dc22, /* blocked payments warning */
+	.blockedPaymentsWarning__0bf12.blockedPaymentsWarning_de6c61.card__4dc22,
+	/* blocked payments warning */
 	.scroller-2MALzE.list-2u03C-.thin-31rlnD.scrollerBase-_bVAAt,
 	.listRow-hutiT_, .connectedAccounts-2-XP1G,
 	.theme-light .footerSeparator-VzAYwb,
@@ -212,7 +221,8 @@ https://discord.gg/5jm5P3SJF3
 	.scroller-2MALzE.list-obNEuP.none-2-_0dP.scrollerBase-_bVAAt,
 	.inspector-DFKXwB,
 	.unicodeShortcut-3N8oDe,
-	.pageWrapper__582b9, /* shop */
+	.pageWrapper__582b9,
+	/* shop */
 	.inner-1NoIT5.thin-31rlnD.scrollerBase-_bVAAt,
 	.guildIcon-2SUGiq,
 	.categoryItemRecentEmoji-Rk8CU1,
@@ -222,6 +232,21 @@ https://discord.gg/5jm5P3SJF3
 	.scroller-2MALzE.none-1rXy4P.scrollerBase-1Pkza4,
 	.pageWrapper-2PwDoS,
 	.contentWrapper-2f9yME,
+	/* slash commands as "/" */
+	.scroller_e89578.list__0870a.thin__62e51.scrollerBase__2b744,
+	/* home -> nitro (billing paused) */
+	.homeWrapperNormal__6f127.homeWrapper__59a03,
+	/* settings -> billing -> payments warning */
+	.blockedPaymentsWarning__0bf12.card__4dc22,
+	/* settings -> billing -> payments table header */
+	.paymentPane__9cf01.verticalFit_d9ac53,
+	/* right click on server channel */
+	.scroller__750f5.thin__62e51.scrollerBase__2b744,
+	/* create a server -> already have an invite title */
+	.flex_f5fbb7.horizontalReverse_dc209c.justifyStart__42744.alignStretch_e239ef.noWrap__5c413.footer__89240,
+	/* discovery */
+	.scroller__1f4dd.auto__76cc7.scrollerBase__2b744,
+
 
 	.scroller-2MALzE.list-2u03C-.thin-RnSY0a.scrollerBase-1Pkza4,
 
@@ -229,16 +254,19 @@ https://discord.gg/5jm5P3SJF3
 	.root-1CAIjD.small-2xUY-3.fullscreenOnMobile-2971EC.rootWithShadow-2hdL2J,
 	.popout_5708,
 	.option-Uc12mm,
-	
+
 
 	/* section: sticker picker */
 	.wrapper-1NNaWG.packHeader-w9jpYl,
 	.standardStickerShortcut-ObSns3,
 	.assetWrapperMasked-1iw9lV,
-	.picker-20lcBA, /* soundboard */ 
-	.pageBody-23bo4p, /* browse channels */
-	.grid-1aWVsE, /* embed in pinned */
-	
+	.picker-20lcBA,
+	/* soundboard */
+	.pageBody-23bo4p,
+	/* browse channels */
+	.grid-1aWVsE,
+	/* embed in pinned */
+
 	/* section tenor gifs */
 	.searchBar-3aIzc-.container-2oNtJn.medium-2NClDM,
 	div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI.background-fkKrXt > div > div,
@@ -246,7 +274,8 @@ https://discord.gg/5jm5P3SJF3
 	.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.header-1ffhsl,
 	.content-1OG56Q.modalContent-33IoUE.thin-RnSY0a.scrollerBase-1Pkza4,
 
-	.directoryContainer-z-0pgp.thin-RnSY0a.scrollerBase-1Pkza4, /*app directory*/
+	.directoryContainer-z-0pgp.thin-RnSY0a.scrollerBase-1Pkza4,
+	/*app directory*/
 	.flex-2S1XBF.flex-3BkGQD.horizontalReverse-60Katr.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.footer-31IekZ.bd-error-modal-footer.footerSeparator-VzAYwb,
 	.peopleColumn-1wMU14) {
 	background: black !important;
@@ -282,8 +311,8 @@ textarea[aria-label="Note"] {
 	border-radius: 3px;
 }
 
-.selected-1Tbx07>.content-Qb0rXO,
-.selected-3H3-RC {
+:is(.selected-1Tbx07>.content-Qb0rXO,
+	.option_be8b2e[aria-selected='true'], .selected-3H3-RC) {
 	background-color: hsl(0 0% 7%) !important;
 }
 
@@ -354,11 +383,12 @@ textarea[aria-label="Note"] {
 	background-color: black;
 	color: white;
 }
+
 .footerButton-24QPis.button-ejjZWC.lookFilled-1H2Jvj.colorPrimary-2-Lusz.sizeMedium-2oH5mg.grow-2T4nbg {
 	background: hsl(0 0% 5%);
 }
 
-div:has(h1.defaultColor-1EVLSt.heading-xl-semibold-3E1dYv.defaultColor-1GKx81:is(.title-1_TkpU, .title-1LqMUp, .title-OdeD-o)) > :is(h1, :nth-child(2)) {
+div:has(h1.defaultColor-1EVLSt.heading-xl-semibold-3E1dYv.defaultColor-1GKx81:is(.title-1_TkpU, .title-1LqMUp, .title-OdeD-o))> :is(h1, :nth-child(2)) {
 	color: white;
 }
 
@@ -371,7 +401,7 @@ div:has(h1.defaultColor-1EVLSt.heading-xl-semibold-3E1dYv.defaultColor-1GKx81:is
 	background: black;
 }
 
-.examplesForm-N_P087 > *:nth-child(n+2) {
+.examplesForm-N_P087>*:nth-child(n+2) {
 	color: white;
 }
 
