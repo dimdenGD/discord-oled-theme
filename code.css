@@ -7,6 +7,10 @@ https://github.com/dimdenGD/discord-oled-theme/
 https://discord.gg/5jm5P3SJF3
 */
 
+:is(:root, .theme-dark) {
+	--bg-overlay-app-frame: black !important;
+}
+
 .modal-yWgWj->.inner-TkGytd>.root-SR8cQa {
 	background: black;
 	border-radius: 0px;
@@ -190,7 +194,7 @@ https://discord.gg/5jm5P3SJF3
 	.wrapper-1NNaWG.categoryHeader-OpJ1Ly,
 	.scrollableContainer__33e06.themedBackground__6b1b6.webkit__8d35a,
 	/* type box */
-	.content__764ce.content__41e2c.thin_b1c063.scrollerBase_dc3aa9,
+	.channelTextArea_c2094b.channelTextArea__648e5,
 	/* events */
 	.focusLock__10aa5 > .root_a28985 > *,
 	.blockedPaymentsWarning__0bf12.blockedPaymentsWarning_de6c61.card__4dc22,
@@ -247,7 +251,7 @@ https://discord.gg/5jm5P3SJF3
 	/* discovery */
 	.scroller__1f4dd.auto__76cc7.scrollerBase__2b744,
 	/* mentions (@ in chat box) */
-	.scroller_cc9b9a.thin__62e51.scrollerBase__2b744,
+	.scroller__3fc84.thin__62e51.scrollerBase__65223,
 
 
 	.scroller-2MALzE.list-2u03C-.thin-RnSY0a.scrollerBase-1Pkza4,
