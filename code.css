@@ -9,6 +9,8 @@ https://discord.gg/5jm5P3SJF3
 
 :is(:root, .theme-dark) {
 	--bg-overlay-app-frame: black !important;
+	--channeltextarea-background: black !important;
+	--bg-overlay-3: black !important;
 }
 
 .modal-yWgWj->.inner-TkGytd>.root-SR8cQa {
