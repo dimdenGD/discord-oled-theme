@@ -11,9 +11,12 @@ https://discord.gg/5jm5P3SJF3
 	--bg-overlay-app-frame: black !important;
 	--channeltextarea-background: black !important;
 	--bg-overlay-3: black !important;
+	--bg-overlay-2: black !important;
 	--background-floating: black !important;
 	--modal-background: black !important;
+	--deprecated-store-bg: black !important;
 	--modal-footer-background: black !important;
+	--autocomplete-bg: black !important;
 }
 
 .modal-yWgWj->.inner-TkGytd>.root-SR8cQa {
@@ -30,7 +33,8 @@ https://discord.gg/5jm5P3SJF3
 :not(:is(.overlayBackground-1KgwVi > .scrollerBase-_bVAAt,
 		.scroller-15bIdk.thin-RnSY0a.scrollerBase-1Pkza4,
 		.scroller__83262.thin__62e51.scrollerBase__2b744,
-		.infoScroller-1QMpon.thin-RnSY0a.scrollerBase-1Pkza4))::-webkit-scrollbar-track-piece {
+		.infoScroller-1QMpon.thin-RnSY0a.scrollerBase-1Pkza4,
+		.inner_dc0b43.scrollableContainer_d0696b))::-webkit-scrollbar-track-piece {
 	background-color: black !important;
 	border: none !important;
 }
