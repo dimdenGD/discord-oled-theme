@@ -25,6 +25,10 @@ https://discord.gg/5jm5P3SJF3
 	backdrop-filter: blur(5px);
 }
 
+.channelTextArea_f75fb0.channelTextArea__74017:is(> *, > * > *, > * > * > *) {
+	background: black !important;
+}
+
 .unreadBar-3t3sYc,
 .perk-19D_HN {
 	background: hsl(0 0% 4%);
@@ -34,6 +38,8 @@ https://discord.gg/5jm5P3SJF3
 		.scroller-15bIdk.thin-RnSY0a.scrollerBase-1Pkza4,
 		.scroller__83262.thin__62e51.scrollerBase__2b744,
 		.infoScroller-1QMpon.thin-RnSY0a.scrollerBase-1Pkza4,
+		.inner_a99829.scrollableContainer__74017,
+		.body__5be3e.thin_d125d2.scrollerBase_d125d2.fade_d125d2,
 		.inner_dc0b43.scrollableContainer_d0696b))::-webkit-scrollbar-track-piece {
 	background-color: black !important;
 	border: none !important;
@@ -76,6 +82,7 @@ https://discord.gg/5jm5P3SJF3
 :is(.autocomplete-1vrmpx,
 	.tierBody-x9kBBp,
 	.overflowRolesPopout-140n9i,
+	.container__927fc,
 	.layout-2DM8Md,
 	.header-1TKi98,
 	.footer-2gL1pp,
@@ -149,6 +156,7 @@ https://discord.gg/5jm5P3SJF3
 	.menu-1QACrS,
 	.autocomplete-3NRXG8.autocomplete-3jLKbj.autocompleteAttached-bt_md-,
 	.scroller,
+	.appDetailsContainer_cb32c7.appDetailsRowContainer_cb32c7,
 	.noiseCancellationPopout-iRK2A0,
 	.perksModalContentWrapper-2HU6uL,
 	.perksModalContentWrapper-3RHugb,
